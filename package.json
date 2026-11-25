@@ -1,12 +1,13 @@
 {
   "name": "campusblog",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Campus blogging platform demonstrating OWASP Top 10 vulnerabilities and mitigations",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "init-db": "node init_db.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
